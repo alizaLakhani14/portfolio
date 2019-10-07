@@ -1,0 +1,186 @@
+body {
+    paddig: 0;
+    margin: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #2e9978;
+    position: sticky;
+    top: 0;
+    width: 100vw;
+  }
+  
+  li {
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  li:hover {
+    background-color: white;
+  }
+  
+  nav a:hover {
+    background-color: white;
+    color: #2e9978;
+  }
+  
+  #welcome-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  h1 {
+    font-size: 100px;
+    color: #2e9978;
+    margin-bottom: 0;
+  }
+  
+  h2 {
+    font-size: x-large;
+  }
+  
+  h2 {
+    font-size: x-large;
+    color: darkslategray;
+  }
+  
+  .name p {
+    font-size: x-large;
+    color: darkslategray;
+  }
+  
+  .my-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-tile {
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 20px;
+  }
+  
+  #projects {
+    background-color: #ff572294;
+    text-align: center;
+  }
+  
+  #projects-heading {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    color: gray;
+    padding-bottom: 20px;
+    text-decoration: underline;
+  }
+  
+  button {
+    margin: 1em;
+    height: 50px;
+    width: 110px;
+    background-color: #2e9978;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+  }
+  
+  #contact-us {
+    background-color: gray;
+    text-align: center;
+  }
+  
+  #contact-us-heading {
+    color: white;
+    padding: 0.5em;
+    text-decoration: underline;
+    margin: 0;
+    font-size: 50px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttons button {
+    background-color: gray;
+  }
+  
+  .buttons button:hover {
+    margin-top: 20px;
+  }
+  
+  img {
+    height: 350px;
+    width: 400px;
+  }
+  
+  .projects-name {
+    height: 48px;
+    width: 400px;
+    background-color: gray;
+  }
+  
+  .projects-name p {
+    margin: 0;
+  }
+  
+  .projects-name a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #welcome-section h1 {
+      font-size: xX-large;
+    }
+    li {
+      display: block;
+    }
+    header {
+      justify-content: center;
+    }
+    .project-tile {
+      height: 300px;
+      width: 300px;
+    }
+    img {
+      height: 250px;
+      width: 300px;
+    }
+    .projects-name {
+      height: 48px;
+      width: 300px;
+    }
+    .buttons {
+      flex-direction: column;
+      align-items: center;
+    }
+    #email {
+      margin-right: 8em;
+    }
+  }
+  
